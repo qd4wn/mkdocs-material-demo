@@ -15,4 +15,4 @@ Collapsible callout:
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-For more admonitions visit [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/admonitions/).
+For more admonitions visit [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)...

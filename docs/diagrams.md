@@ -28,4 +28,4 @@ sequenceDiagram
 
 
 ## More
-For more admonitions visit Material for [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/diagrams/).
+For more admonitions visit Material for [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/diagrams/)...
