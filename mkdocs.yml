@@ -1,0 +1,61 @@
+site_name: My MkDocs Material Doc...
+site_url: https://sitename.example
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  icon:
+    logo: fontawesome/solid/w
+  # logo: assets/favicon.png  # failed
+  # Page Footer?
+  features:
+    - navigation.footer
+  # Color Scheme
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+markdown_extensions:
+  # for Emojs
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # for Code Highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:   # for Diagrams
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  # for Content Tabs
+  - pymdownx.tabbed:
+      alternate_style: true
+  # for Admonitions (aka Callouts) <with types> 
+  - admonition
+  - pymdownx.details
+  
+# for Social Connect?
+extra:
+  social:
+    - icon: simple/github
+      link: https://youtube.com/@james-willett
+
+# copyright: Copyright &copy; 2025 DXQ
