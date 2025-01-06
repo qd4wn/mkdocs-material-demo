@@ -56,6 +56,6 @@ markdown_extensions:
 extra:
   social:
     - icon: simple/github
-      link: https://youtube.com/@james-willett
+      link: https://github.com/qd4wn/mkdocs-material-demo
 
 # copyright: Copyright &copy; 2025 DXQ
